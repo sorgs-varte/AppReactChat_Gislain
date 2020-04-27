@@ -1,6 +1,6 @@
 
 const initState = {
-    user: "Robert",
+    user: "Bernard",
     room: null,
     messages: [],
     error: undefined

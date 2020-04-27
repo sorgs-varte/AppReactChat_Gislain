@@ -18,13 +18,6 @@ export const chatService = {
         currentroom = room.toLowerCase() || 'général';
         db = new PouchDB(currentroom);
 
- //       return db.allDocs({
- //           include_docs: true,
- //       }).then(response =>
- //          response.rows
- //           .map(row => row.doc)
- //           .sort((a,b) => a.created_at > b.created_at)
- //           );
             sync = db.sync(`${REMOTE_DB}/${currentroom}`, {
                 live: true,
                 retry: true,

@@ -41,7 +41,7 @@ export class Home extends React.Component {
                     value={user}
                     onChangeText={this.handleUserChange}
                     style={styles.input}
-                    placeholder=" Choississez un pseudo"
+                    placeholder="Pseudo"
                 />
 
                 <Text style = {styles.label}>Salon</Text>
@@ -49,7 +49,7 @@ export class Home extends React.Component {
                     value={room}
                     onChangeText={this.handleRoomChange}
                     style={styles.input}
-                    placeholder="Salon de chat"
+                    placeholder="Salon"
                 />
 
                 <Button

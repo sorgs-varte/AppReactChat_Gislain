@@ -58,7 +58,7 @@ handleSendPress = e => {
                     <TextInput
                       
                         style={styles.composerInput}
-                        placeholder="Write something"
+                        placeholder="text..."
                         value={content}
                         onChangeText={this.handleContentChange}
                     />
